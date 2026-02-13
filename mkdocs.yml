@@ -4,24 +4,36 @@ site_url: https://YOURUSERNAME.github.io/YOURREPO/
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - search.highlight
     - search.suggest
+    - search.highlight
     - content.code.copy
 
 nav:
   - Home: index.md
+
   - Getting Started:
       - Join the Server: getting-started/join.md
       - Rules: getting-started/rules.md
+      - Commands: getting-started/commands.md
+
   - Custom Content:
-      - Items: custom/items.md
-      - Crafting: custom/crafting.md
-      - Machines: custom/machines.md
+      - Overview: custom-content/overview.md
+      - Items: custom-content/items.md
+      - Crafting: custom-content/crafting.md
+      - Machines: custom-content/machines.md
+
   - Economy:
+      - Overview: economy/overview.md
       - Shop: economy/shop.md
       - Selling: economy/selling.md
+
+  - Nuclear Update:
+      - Overview: nuclear/overview.md
+      - Uranium: nuclear/uranium.md
+      - Reactor: nuclear/reactor.md
+      - Safety: nuclear/safety.md
+
   - FAQ: faq.md
