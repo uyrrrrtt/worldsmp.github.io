@@ -1,0 +1,27 @@
+site_name: Your Server Guide
+site_url: https://YOURUSERNAME.github.io/YOURREPO/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Join the Server: getting-started/join.md
+      - Rules: getting-started/rules.md
+  - Custom Content:
+      - Items: custom/items.md
+      - Crafting: custom/crafting.md
+      - Machines: custom/machines.md
+  - Economy:
+      - Shop: economy/shop.md
+      - Selling: economy/selling.md
+  - FAQ: faq.md
